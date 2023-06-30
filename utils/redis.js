@@ -56,4 +56,4 @@ class RedisClient {
 }
 
 const redisClient = new RedisClient();
-exports = redisClient;
+module.exports = redisClient;

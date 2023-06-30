@@ -33,4 +33,4 @@ class DBClient {
 }
 
 const dbClient = new DBClient();
-exports = dbClient;
+module.exports = dbClient;
